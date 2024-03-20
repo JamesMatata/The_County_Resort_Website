@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base_style.css">
+    <title>Book Room | TCR</title>
+</head>
+<body>
+    <div class="ReservationFormDiv">
+        <div class="formTitleDiv">
+            <h1 class="formTitle">Room Reservation</h1>
+        </div>
+        
+        <hr>
+        <label for="name">Name:</label>
+        <input class="formInput" type="text" name="" id="name">
+        <label for="gender">Choose a gender:</label>
+        <select name="gender" id="gender" style="width: 200px;padding: 5px;font-size: 16px;margin-top: 10px;">
+            <option>Choose.....</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <label for="telephone">Telephone:</label>
+        <input class="formInput" type="tel" name="" id="telephone">
+        <label for="emailAddress">Email Address:</label>
+        <input class="formInput" type="text" name="" id="emailAddress">
+        <label for="roomtype">Choose what suites you:</label>
+        <select name="roomtype" id="roomtype" style="width: 200px;padding: 5px;font-size: 16px;margin-top: 10px;">
+            <option>Choose.....</option>
+            <option value="Presidential Suites">Presidential Suites@KES20000</option>
+            <option value="Executive Suites">Executive Suites@KES26500</option>
+            <option value="Studio Suites">Studio Suites@KES20000</option>
+            <option value="Sea Facing Rooms"> Sea Facing Rooms@KES34000</option>
+        </select><br>
+        <label for="arrivalDate">Arrival Date:</label>
+        <input class="formInput" type="date" name="arrivalDate" id="arrivalDate">
+        <label for="childrenNo">Number of children:</label>
+        <input class="formInput" type="number" name="" id="childrenNo">
+        <button style="margin-right: 7px;background-color: magenta;" class="reservationFormButtons">Book</button>
+        <button style="background-color: red;" class="reservationFormButtons">Cancel</button>
+    </div>
+</body>
+</html>

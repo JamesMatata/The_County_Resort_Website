@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base_style.css">
+    <title>Book Space | TCR</title>
+</head>
+<body>
+    <div class="ReservationFormDiv">
+        <div class="formTitleDiv">
+            <h1 class="formTitle">Conferencing Space</h1>
+        </div>
+        
+        <hr>
+        <label for="name">Organization/Company Name:</label>
+        <input class="formInput" type="text" name="" id="name">
+        <label for="telephone">Telephone:</label>
+        <input class="formInput" type="tel" name="" id="telephone">
+        <label for="emailAddress">Email Address:</label>
+        <input class="formInput" type="text" name="" id="emailAddress">
+        <label for="purpose">Reserve space for:</label>
+        <select name="purpose" id="purpose" style="width: 200px;padding: 5px;font-size: 16px;margin-top: 10px;">
+            <option>Choose.....</option>
+            <option value="Presidential Suites">Confrencing@KES50000</option>
+            <option value="Executive Suites">Event@KES50000</option>
+        </select><br>
+        <label for="NumberOfPeople">Number of people:</label>
+        <input class="formInput" type="number" name="NumberOfPeople" id="NumberOfPeople">
+        <label for="StartingDate">Starting Date:</label>
+        <input class="formInput" type="date" name="StartingDate" id="StartingDate">
+        <label for="NumberOfDays">Number of days:</label>
+        <input class="formInput" type="number" name="NumberOfDays" id="NumberOfDays">
+        <button style="margin-right: 7px;background-color: magenta;" class="reservationFormButtons">Book</button>
+        <button style="background-color: red;" class="reservationFormButtons">Cancel</button>
+    </div>
+</body>
+</html>
